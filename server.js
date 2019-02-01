@@ -25,8 +25,10 @@ app.use(passport.session()); // persistent login sessions
 
 // Static directory
 //needs to be replaced with react index file
-app.use(express.static("public"));
-
+//may need to change to router.use and require const router = require("express").Router();
+app.use(function(req, res) {
+    res.sendFile(path.join(__dirname, "../client/build/index.html"));
+  });
 
 
 // Start the API server

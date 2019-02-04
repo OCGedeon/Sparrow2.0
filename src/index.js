@@ -4,7 +4,7 @@ import { createBrowserHistory } from "history";
 import { Router, Route, Switch, Redirect } from "react-router-dom";
 
 import AdminLayout from "../src/layouts/Admin/Admin.jsx";
-import RTLLayout from "/src/layouts/RTL/RTL.jsx";
+import RTLLayout from "../src/layouts/RTL/RTL.jsx";
 
 import "./assets/css/black-dashboard-react.css";
 import "./assets/demo/demo.css";

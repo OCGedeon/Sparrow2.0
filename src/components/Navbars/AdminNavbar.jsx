@@ -138,27 +138,27 @@ class AdminNavbar extends React.Component {
                   <DropdownMenu className="dropdown-navbar" right tag="ul">
                     <NavLink tag="li">
                       <DropdownItem className="nav-item">
-                        Mike John responded to your email
+                        Wilson Created A Task
                       </DropdownItem>
                     </NavLink>
                     <NavLink tag="li">
                       <DropdownItem className="nav-item">
-                        You have 5 more tasks
+                        You have 5 more tasks on your dashboard
                       </DropdownItem>
                     </NavLink>
                     <NavLink tag="li">
                       <DropdownItem className="nav-item">
-                        Your friend Michael is in town
+                        You have been paid for completing laundry pick up.
                       </DropdownItem>
                     </NavLink>
                     <NavLink tag="li">
                       <DropdownItem className="nav-item">
-                        Another notification
+                        New Global Task To Claim
                       </DropdownItem>
                     </NavLink>
                     <NavLink tag="li">
                       <DropdownItem className="nav-item">
-                        Another one
+                        Sandy has claimed your dog walking task.
                       </DropdownItem>
                     </NavLink>
                   </DropdownMenu>
@@ -172,7 +172,7 @@ class AdminNavbar extends React.Component {
                     onClick={e => e.preventDefault()}
                   >
                     <div className="photo">
-                      <img alt="..." src={require("assets/img/anime3.png")} />
+                      <img alt="..." src={require("../../assets/img/anime3.png")} />
                     </div>
                     <b className="caret d-none d-lg-block d-xl-block" />
                     <p className="d-lg-none">Log out</p>

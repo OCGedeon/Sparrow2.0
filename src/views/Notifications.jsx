@@ -68,9 +68,6 @@ class Notifications extends React.Component {
                   <CardTitle tag="h4">Notifications Style</CardTitle>
                 </CardHeader>
                 <CardBody>
-                  <Alert color="info">
-                    <span>This is a plain notification</span>
-                  </Alert>
                   <UncontrolledAlert color="info">
                     <span>This is a notification with close button.</span>
                   </UncontrolledAlert>

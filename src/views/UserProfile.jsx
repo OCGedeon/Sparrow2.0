@@ -160,14 +160,12 @@ class UserProfile extends React.Component {
                         className="avatar"
                         src={require("../assets/img/emilyz.jpg")}
                       />
-                      <h5 className="title">Mike Andrew</h5>
+                      <h5 className="title">Jillian Jones</h5>
                     </a>
-                    <p className="description">Ceo/Co-Founder</p>
+                    <p className="description">Regional Manager</p>
                   </div>
                   <div className="card-description">
-                    Do not be scared of the truth because we need to restart the
-                    human foundation in truth And I love you like Kanye loves
-                    Kanye I love Rick Owens’ bed design but the back is...
+                    Do not fear the code.
                   </div>
                 </CardBody>
                 <CardFooter>

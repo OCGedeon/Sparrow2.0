@@ -50,9 +50,7 @@ class Sidebar extends React.Component {
             target="_blank"
             onClick={this.props.toggleSidebar}
           >
-            <div className="logo-img">
-              <img src={logo.imgSrc} alt="react-logo" />
-            </div>
+          
           </a>
         );
         logoText = (

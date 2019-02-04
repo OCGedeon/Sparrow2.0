@@ -4,14 +4,14 @@ import { Route, Switch } from "react-router-dom";
 import PerfectScrollbar from "perfect-scrollbar";
 
 // core components
-import AdminNavbar from "components/Navbars/AdminNavbar.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import Sidebar from "components/Sidebar/Sidebar.jsx";
-import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
+import AdminNavbar from "/src/components/Navbars/AdminNavbar.jsx";
+import Footer from "/src/components/Footer/Footer.jsx";
+import Sidebar from "/src/components/Sidebar/Sidebar.jsx";
+import FixedPlugin from "/src/components/FixedPlugin/FixedPlugin.jsx";
 
-import routes from "routes.js";
+import routes from "/src/routes.js";
 
-import logo from "assets/img/react-logo.png";
+// import logo from "./src/assets/img/react-logo.png";
 
 var ps;
 
@@ -99,9 +99,9 @@ class Admin extends React.Component {
             routes={routes}
             bgColor={this.state.backgroundColor}
             logo={{
-              outterLink: "https://www.creative-tim.com/",
-              text: "Creative Tim",
-              imgSrc: logo
+              outterLink: "Sparrow.com/",
+              text: "Sparrow",
+              
             }}
             toggleSidebar={this.toggleSidebar}
           />

@@ -1,6 +1,6 @@
 import React from "react";
 // nodejs library that concatenates classes
-// import classNames from "classnames";
+
 import Map from "../views/Map" ;
 
 

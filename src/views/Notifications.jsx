@@ -64,7 +64,7 @@ class Notifications extends React.Component {
             <Col md="12">
               <Card>
                 <CardHeader>
-                  <CardTitle tag="h4">Notifications Style</CardTitle>
+                  <CardTitle tag="h4">Notifications</CardTitle>
                 </CardHeader>
                 <CardBody>
                   <UncontrolledAlert color="info">

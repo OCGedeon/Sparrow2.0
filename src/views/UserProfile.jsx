@@ -33,7 +33,7 @@ class UserProfile extends React.Component {
                         <FormGroup>
                           <label>Company (disabled)</label>
                           <Input
-                            defaultValue="Creative Code Inc."
+                            defaultValue=""
                             disabled
                             placeholder="Company"
                             type="text"
@@ -44,7 +44,7 @@ class UserProfile extends React.Component {
                         <FormGroup>
                           <label>Username</label>
                           <Input
-                            defaultValue="michael23"
+                            defaultValue=""
                             placeholder="Username"
                             type="text"
                           />
@@ -55,7 +55,7 @@ class UserProfile extends React.Component {
                           <label htmlFor="exampleInputEmail1">
                             Email address
                           </label>
-                          <Input placeholder="mike@email.com" type="email" />
+                          <Input placeholder="" type="email" />
                         </FormGroup>
                       </Col>
                     </Row>
@@ -64,7 +64,7 @@ class UserProfile extends React.Component {
                         <FormGroup>
                           <label>First Name</label>
                           <Input
-                            defaultValue="Mike"
+                            defaultValue=""
                             placeholder="Company"
                             type="text"
                           />
@@ -74,7 +74,7 @@ class UserProfile extends React.Component {
                         <FormGroup>
                           <label>Last Name</label>
                           <Input
-                            defaultValue="Andrew"
+                            defaultValue=""
                             placeholder="Last Name"
                             type="text"
                           />
@@ -86,7 +86,7 @@ class UserProfile extends React.Component {
                         <FormGroup>
                           <label>Address</label>
                           <Input
-                            defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
+                            defaultValue=""
                             placeholder="Home Address"
                             type="text"
                           />
@@ -98,7 +98,7 @@ class UserProfile extends React.Component {
                         <FormGroup>
                           <label>City</label>
                           <Input
-                            defaultValue="Mike"
+                            defaultValue=""
                             placeholder="City"
                             type="text"
                           />
@@ -108,7 +108,7 @@ class UserProfile extends React.Component {
                         <FormGroup>
                           <label>Country</label>
                           <Input
-                            defaultValue="Andrew"
+                            defaultValue=""
                             placeholder="Country"
                             type="text"
                           />
@@ -127,8 +127,7 @@ class UserProfile extends React.Component {
                           <label>About Me</label>
                           <Input
                             cols="80"
-                            defaultValue="Lamborghini Mercy, Your chick she so thirsty, I'm in
-                            that two seat Lambo."
+                            defaultValue=""
                             placeholder="Here can be your description"
                             rows="4"
                             type="textarea"

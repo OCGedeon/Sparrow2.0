@@ -1,0 +1,31 @@
+.imgContainer {
+
+	position: absolute;
+	left: 500px;
+	top: 100px;
+
+
+}
+
+.authContainer{
+	position: absolute;
+	left: 80%;
+	margin-bottom: 10px;
+	/*background-color: #4A79FF; */
+}
+
+.videoContainer{
+	/*width: 500px;*/
+	width: 95%;
+	position: absolute;
+	top : 60%;
+	left :50px;
+	margin: 
+}
+/*.video-js.vjs-default-skin .vjs-big-play-button { display: none; }
+.video-react-control-bar {
+	display: none
+}
+.video-react-big-play-button {
+    display: none
+}*/
